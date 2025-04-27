@@ -6,7 +6,7 @@
   "author": "Jose Matisen Riquelme",
   "scripts": {
     "start": "concurrently \"npm run start --prefix backend\" \"npm run start --prefix frontend\"",
-    "install": "npm install --prefix frontend && npm install --prefix backend",
+    "install-fb": "npm install --prefix frontend && npm install --prefix backend",
     "build": "npm run build --prefix frontend",
     "migrate": "npm run migrate --prefix backend",
     "generate": "npm run generate --prefix backend"
